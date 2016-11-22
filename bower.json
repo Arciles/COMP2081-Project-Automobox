@@ -1,0 +1,24 @@
+{
+  "name": "Project-Automoblox",
+  "authors": [
+    "Esat IBIS <esat.taha.ibis@gmail.com>"
+  ],
+  "description": "Automoblox sipmle unoffical website for COMP2081",
+  "main": ".",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "4.0.0-alpha.5",
+    "font-awesome": "fontawesome#^4.7.0",
+    "lodash": "^4.17.2",
+    "modernizr": "^3.3.1"
+  }
+}
