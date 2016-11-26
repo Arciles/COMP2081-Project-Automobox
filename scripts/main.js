@@ -18,7 +18,6 @@
         // loop thru all of the anchors in the DOM
         setEventListener(anchors[index])
     }
-
     close.addEventListener('click',function () {
         //set the display none when the user clicks X
         modal.style.display = 'none';
