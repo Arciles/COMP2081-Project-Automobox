@@ -19,7 +19,7 @@
         setEventListener(anchors[index])
     }
 
-    close.addEventListener('click',function (event) {
+    close.addEventListener('click',function () {
         //set the display none when the user clicks X
         modal.style.display = 'none';
     });
