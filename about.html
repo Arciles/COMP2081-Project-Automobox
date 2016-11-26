@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Automoblox | COMP2081 Project</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Style sheets -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <script src="bower_components/modernizr/dist/modernizr-build.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-dark navbar-fixed-top bg-inverse">
+        <ul class="container nav navbar-nav">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/automoblox-logo.png" width="80" height="30" class="d-inline-block align-top" alt="">
+            </a>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./automolox-cars/car1.html">Car1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./automolox-cars/car2.html">Car2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./automolox-cars/car3.html">Car3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="about.html">About</a>
+            </li>
+
+        </ul>
+    </nav>
+</header>
+<main class="container">
+    <h1>About Us</h1>
+    <div class="row">
+        <!--Address and stuff-->
+        <div class="col-md-6 about-page">
+            <h2>Our locations</h2>
+            <label>Barrie:</label>
+            <p>1 Georgian Drive, Barrie ON</p>
+            <label>Toronto:</label>
+            <p>19 East Front St.
+                Coatesville, PA 19320</p>
+            <label>Montreal:</label>
+            <p>11 Broad Avenue
+                Grand Blanc, MI 48439</p>
+            <label>New York:</label>
+            <p>7344 Lilac Dr.
+                Gloucester, MA 01930</p>
+            <label>New York:</label>
+            <p>671 8th Street
+                Plymouth, MA 02360</p>
+        </div>
+        <!--form section for send us a message -->
+        <div class="col-md-6 about-page">
+            <h2>Send us a message</h2>
+            <form>
+                <fieldset class="form-group">
+                    <label for="txtSubject" class="form-control-label">Subject: </label>
+                    <input type="text" id="txtSubject" class="form-control">
+                </fieldset>
+                <fieldset class="form-group">
+                    <label for="txtEmailAddress" class="form-control-label">Email: </label>
+                    <input type="email" id="txtEmailAddress" class="form-control">
+                </fieldset>
+                <fieldset class="form-group">
+                    <label for="txtMessage" class="form-control-label">Email: </label>
+                    <textarea type="email" id="txtMessage" class="form-control" rows="9" cols="50"></textarea>
+                </fieldset>
+                <div>
+                    <button type="button" class="btn btn-outline-primary">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+<footer>
+    <section class="container">
+        <hr>
+        <p>This website created for COMP2081</p>
+    </section>
+</footer>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/tether/dist/js/tether.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
