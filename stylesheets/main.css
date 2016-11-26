@@ -24,6 +24,10 @@ main.container img{
 footer {
     text-align: center;
 }
+#carousel-automoblox img {
+    height: 725px;
+    width: 100%;
+}
 .carousel-inner img {
     display: block;
     margin: 0 auto;
@@ -35,9 +39,6 @@ section {
 }
 section h2 {
     text-align: center;
-}
-#carousel-automoblox {
-    max-height: 90vh;
 }
 
 #img-section img {

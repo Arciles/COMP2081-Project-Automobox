@@ -6,7 +6,7 @@
 (function () {
 
     $('.carousel').carousel({
-        interval: 5000
+        interval: 6000
     });
 
     let anchors = document.querySelectorAll('#img-section a');
